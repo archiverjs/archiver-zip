@@ -1,0 +1,44 @@
+{
+  "name": "archiver-zip",
+  "version": "0.0.1",
+  "description": "a zip plugin for archiver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ctalkington@github.com/archiverjs/archiver-zip.git"
+  },
+  "author": {
+    "name": "Chris Talkington",
+    "url": "http://christalkington.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/archiverjs/archiver-zip/issues"
+  },
+  "homepage": "https://github.com/archiverjs/archiver-zip#readme",
+  "keywords": [
+    "archiver",
+    "archiverplugin",
+    "zip"
+  ],
+  "files": [
+    "lib",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "through2": "~0.6.1",
+    "zip-stream": "~0.5.0"
+  },
+  "devDependencies": {
+    "yauzl": "~2.2.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
