@@ -1,6 +1,6 @@
 {
   "name": "archiver-zip",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "a zip plugin for archiver",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://ctalkington@github.com/archiverjs/archiver-zip.git"
+    "url": "https://github.com/archiverjs/archiver-zip.git"
   },
   "author": {
     "name": "Chris Talkington",

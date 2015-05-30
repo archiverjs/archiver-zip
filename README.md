@@ -1,4 +1,4 @@
-# archiver-zip v0.0.1 [![Build Status](https://travis-ci.org/archiverjs/archiver-zip.svg?branch=master)](https://travis-ci.org/archiverjs/archiver-zip)
+# archiver-zip v0.1.0 [![Build Status](https://travis-ci.org/archiverjs/archiver-zip.svg?branch=master)](https://travis-ci.org/archiverjs/archiver-zip)
 
 > zip [archiver](https://github.com/archiverjs/node-archiver) plugin
 
@@ -16,7 +16,7 @@ var ArchiverZip = require('archiver-zip');
 
 new Archiver()
   .src('files/*.html')
-  .dest('dest/archive.zip')
+  .pipe(archive.dest('dest/archive.zip'))
   .use(ArchiverZip())
   .run();
 ```
